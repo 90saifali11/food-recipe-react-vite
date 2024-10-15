@@ -113,9 +113,9 @@ const HeroSection = () => {
         </a>
       </div>
       <div style={imageContainerStyle}>
-        <img src="/src/h3-product6-400x378.png" alt="Delicious dish" style={dishImageStyle} />
+        <img src="/src/images/h3-product6-400x378.png" alt="Delicious dish" style={dishImageStyle} />
         <div style={reviewStyle}>
-          <img src="/src/user.jpg" alt="Sara Johnson" style={{ width: '40px', height: '40px', borderRadius: '50%', marginRight: '1rem' }} />
+          <img src="/src/images/user.jpg" alt="Sara Johnson" style={{ width: '40px', height: '40px', borderRadius: '50%', marginRight: '1rem' }} />
           <div>
             <strong>Sara Johnson</strong>
             <div style={{ color: '#FFD700' }}>★★★★★</div>
@@ -123,8 +123,8 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <img src="/src/download (1).png" alt="Leaf decoration" style={{ ...leafStyle, top: '10%', right: '15%' }} />
-      <img src="/src/download (1).png" alt="Leaf decoration" style={{ ...leafStyle, bottom: '25%', right: '25%', mixBlendMode: 'color-burn' }} />
+      <img src="/src/images/download (1).png" alt="Leaf decoration" style={{ ...leafStyle, top: '10%', right: '15%' }} />
+      <img src="/src/images/download (1).png" alt="Leaf decoration" style={{ ...leafStyle, bottom: '25%', right: '25%', mixBlendMode: 'color-burn' }} />
     </div>
   );
 };

@@ -70,7 +70,7 @@ const ExploreRecipes = () => {
                   <h3 style={{ fontSize: '18px', margin: '0 0 10px 0' }}>{recipe.name}</h3>
                   <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                     <div style={{ display: 'flex', alignItems: 'center' }}>
-                      <img src="/src/male_boy_person_people_avatar_icon_159358.png" alt={recipe.author} style={{ width: '30px', height: '30px', borderRadius: '50%', marginRight: '10px' }} />
+                      <img src="/src/images/male_boy_person_people_avatar_icon_159358.png" alt={recipe.author} style={{ width: '30px', height: '30px', borderRadius: '50%', marginRight: '10px' }} />
                       <span style={{ fontSize: '14px' }}>UserId.{recipe.userId}</span>
                     </div>
                     <span style={{ fontSize: '14px', color: '#666' }}> <img src="/src/noun-calories-7053265.png" style={{width:"20px"}} alt="" />{recipe.caloriesPerServing || recipe.calories} cals</span>

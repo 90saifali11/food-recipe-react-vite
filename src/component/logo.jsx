@@ -1,12 +1,12 @@
 import React from 'react';
 
 const companies = [
-  { name: 'Nestlé', logo: '/src/nestle-logo.png' },
-  { name: 'Apple', logo: '/src/apple-logo-transparent.png' },
-  { name: 'BECO', logo: '/src/hund-von-eden-logo-becopets.jpg' },
-  { name: 'Amazon', logo: '/src/amazon-logo-black-transparent.png' },
-  { name: 'Google', logo: '/src/google-logo-black-transparent.png' },
-  { name: 'Walmart', logo: '/src/images.jpg' },
+  { name: 'Nestlé', logo: '/src/images/nestle-logo.png' },
+  { name: 'Apple', logo: '/src/images/apple-logo-transparent.png' },
+  { name: 'BECO', logo: '/src/images/hund-von-eden-logo-becopets.jpg' },
+  { name: 'Amazon', logo: '/src/images/amazon-logo-black-transparent.png' },
+  { name: 'Google', logo: '/src/images/google-logo-black-transparent.png' },
+  { name: 'Walmart', logo: '/src/images/images.jpg' },
 ];
 
 const CompanyLogos = () => {

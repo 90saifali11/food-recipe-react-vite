@@ -116,7 +116,7 @@ const Footer = () => {
             <img src="https://img.freepik.com/premium-vector/new-twitter-logo-x-2023-twitter-x-logo-vector-download_691560-10809.jpg?w=740" alt="Twitter" style={socialIconStyle} />
             <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" style={socialIconStyle} />
             <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style={socialIconStyle} />
-            <img src="/src/pinterest_2504932.png" alt="Pinterest" style={socialIconStyle} />
+            <img src="/src/images/pinterest_2504932.png" alt="Pinterest" style={socialIconStyle} />
           </div>
         </div>
       </footer>

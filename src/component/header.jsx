@@ -218,7 +218,7 @@ const Header = () => {
   return (
     <header style={headerStyle}>
       <div style={logoStyle}>
-        <img src="/src/logo.png" style={{ width: '200px' }} alt="Logo" />
+        <img src="/src/images/logo.png" style={{ width: '200px' }} alt="Logo" />
       </div>
 
       <div style={menuIconStyle} onClick={toggleMenu}>
@@ -281,7 +281,7 @@ const Header = () => {
         )}
         <Link to={'/userAccount'} style={{ display: 'flex', alignItems: 'center', marginLeft: '10px' }}>
           <img
-            src="/src/boy.jpg" // Path to your male avatar image
+            src="/src/images/boy.jpg" // Path to your male avatar image
             alt="User Avatar"
             style={{ width: '40px', height: '40px', borderRadius: '50%', marginRight: '10px' }}
           />
